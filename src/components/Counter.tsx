@@ -1,15 +1,8 @@
-import { FC } from 'react'
 
-type Props = {
+type CounterProps = {
   num: number
 }
 
-const Counter: FC<Props> = ({ num }) => {
-  return (
-    <div>
-      {num}
-    </div>
-  )
-}
+const Counter= ({ num }: CounterProps) => <div>{num}</div>
 
 export default Counter

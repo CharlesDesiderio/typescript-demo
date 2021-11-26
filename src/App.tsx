@@ -1,9 +1,9 @@
-import { FC, useState } from 'react'
+import { useState } from 'react'
 import Counter from './components/Counter'
 
-const App: FC = () => {
+const App = () => {
 
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState<number>(0)
 
   const addNumber = () => {
     setCount(count + 1)

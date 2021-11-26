@@ -1,5 +1,5 @@
 
-type CounterProps = {
+interface CounterProps {
   num: number
 }
 
